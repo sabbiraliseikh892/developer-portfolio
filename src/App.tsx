@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Highlights from "./components/Highlights";
 
 function App() {
   return (
@@ -85,6 +86,7 @@ function App() {
         </section>
 
         <About />
+        <Highlights />
         <Skills />
         <Experience />
         <Projects />
