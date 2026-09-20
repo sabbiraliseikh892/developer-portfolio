@@ -24,24 +24,24 @@ function App() {
                 Senior Software Developer
               </p>
 
-              <h1 className="mt-5 text-5xl font-bold leading-tight text-white md:text-7xl">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-7xl">
                 Sabbir Ali Seikh
               </h1>
 
-              <h2 className="mt-5 text-2xl font-semibold text-slate-300 md:text-4xl">
+              <h2 className="mt-5 text-xl font-semibold text-slate-300 sm:text-2xl md:text-4xl">
                 Full Stack Developer
               </h2>
 
-              <p className="mt-6 max-w-3xl text-base leading-8 text-slate-400 md:text-lg">
+              <p className="mt-6 max-w-3xl text-sm leading-7 text-slate-400 sm:text-base md:text-lg md:leading-8">
                 I build enterprise applications and modern web solutions using
                 .NET, ASP.NET Core, React, SQL Server, Azure, Google Cloud,
                 Generative AI and Agentic AI.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-4">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a
                   href="#projects"
-                  className="rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400"
+                  className="rounded-lg bg-cyan-500 w-full px-6 py-3 sm:w-auto font-semibold text-slate-950 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400"
                 >
                   View My Projects
                 </a>
@@ -50,14 +50,14 @@ function App() {
                   href="/Sabbir-Ali-Seikh-Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
+                  className="rounded-lg border border-slate-700 w-full px-6 py-3 sm:w-auto font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
                 >
                   View Resume
                 </a>
 
                 <a
                   href="#contact"
-                  className="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
+                  className="rounded-lg border border-slate-700 w-full px-6 py-3 sm:w-auto font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-cyan-400 hover:text-cyan-400"
                 >
                   Contact Me
                 </a>
