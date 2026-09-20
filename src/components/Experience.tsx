@@ -24,26 +24,6 @@ const experiences = [
     ],
     technologies: [".NET", "C#", "ASP.NET", "SQL Server", "JavaScript"],
   },
-  //   {
-  //     company: "Envertis Infosoft Pvt. Ltd.",
-  //     role: "Software Developer",
-  //     period: "May 2018 – Sep 2018",
-  //     achievements: [
-  //       "Developed web applications using ASP.NET and JavaScript.",
-  //       "Improved application performance through code optimization and reviews.",
-  //     ],
-  //     technologies: ["ASP.NET", "C#", "JavaScript", "SQL"],
-  //   },
-  //   {
-  //     company: "Princess Jyotsana Software",
-  //     role: "Software Developer",
-  //     period: "Dec 2016 – Mar 2018",
-  //     achievements: [
-  //       "Developed and maintained software applications.",
-  //       "Integrated a payment gateway to improve transaction security.",
-  //     ],
-  //     technologies: ["ASP.NET", "C#", "JavaScript", "SQL"],
-  //   },
 ];
 
 function Experience() {
