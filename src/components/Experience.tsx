@@ -1,7 +1,7 @@
 const experiences = [
   {
     company: "ITC Infotech India Ltd.",
-    role: "Associate IT Consultant (Grade IS1)",
+    role: "Associate IT Consultant (Grade IS2)",
     period: "Sep 2022 – Present",
     client: "ITC Limited",
     achievements: [
