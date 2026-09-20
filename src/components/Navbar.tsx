@@ -6,6 +6,7 @@ function Navbar() {
   const links = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
+    { name: "Highlights", href: "#highlights" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
@@ -25,7 +26,7 @@ function Navbar() {
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="hidden items-center gap-6 md:flex">
           {links.map((link) => (
             <a
               key={link.name}
@@ -36,8 +37,11 @@ function Navbar() {
             </a>
           ))}
 
+          {/* Resume */}
           <a
             href="/Sabbir-Ali-Seikh-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-lg bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
           >
             Resume
@@ -69,11 +73,13 @@ function Navbar() {
               </a>
             ))}
 
+            {/* Resume */}
             <a
               href="/Sabbir-Ali-Seikh-Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
+              onClick={() => setIsOpen(false)}
+              className="rounded-lg bg-cyan-500 px-4 py-2 text-center text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
             >
               Resume
             </a>

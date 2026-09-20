@@ -23,7 +23,7 @@ const highlights = [
 
 function Highlights() {
   return (
-    <section className="bg-slate-950 px-6 py-16">
+    <section id="highlights" className="bg-slate-950 px-6 py-16">
       <div className="mx-auto grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {highlights.map((item) => (
           <div
